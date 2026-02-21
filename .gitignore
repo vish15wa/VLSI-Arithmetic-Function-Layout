@@ -1,17 +1,29 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+# Electric VLSI
+*.jbackup
+*.jelib~  
+*.old
+temp/
+cache/
+console.log
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# LTSpice
+*.raw
+*.net
+*.log
+*.opraw
+*.abv
+*.abm
+*.ini
+*.plt
+*.scr
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Large binaries/outputs
+*.png  # or keep images with !/*.png if needed
+build/
+output/
